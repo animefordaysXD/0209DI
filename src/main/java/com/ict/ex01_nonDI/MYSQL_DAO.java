@@ -1,0 +1,14 @@
+ package com.ict.ex01_nonDI;
+
+public class MYSQL_DAO implements DAO{
+	
+	public MYSQL_DAO() {
+		System.out.println("SQL constructor");
+	}
+	
+	@Override
+	public void prn() {
+		System.out.println("SQL method");
+		
+	}
+}
